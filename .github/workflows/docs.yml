@@ -21,7 +21,7 @@ jobs:
     - name: Build documentation
       run: |
         cargo doc --no-deps
-        cp ./target/doc/learn_rust/index.html ./target/doc/index.html
+        cp ./target/doc/learning_rust/index.html ./target/doc/index.html
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
