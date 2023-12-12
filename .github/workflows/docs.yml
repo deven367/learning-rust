@@ -20,7 +20,7 @@ jobs:
 
     - name: Build documentation
       run: |
-        cargo doc --no-deps
+        cargo doc
         ln -s ./target/doc/learning_rust/index.html ./target/doc
 
 
